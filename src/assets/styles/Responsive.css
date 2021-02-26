@@ -1,0 +1,38 @@
+@media screen and (max-width: 1023px){
+    .landing-banner {
+        height: 620px !important;
+    }
+
+    .bg-curve {
+        bottom: 39px !important;
+    }
+}
+
+@media screen and (max-width: 767px){
+    /* .class-box {
+        height: 190px !important;
+    } */
+
+    body {
+        /* overflow: auto !important; */
+        padding-right: 0px !important;
+    }
+}
+
+@media screen and (max-width: 639px){
+    .img-list-deal {
+        height: 200px !important;
+    }
+}
+
+@media screen and (max-width: 392px){
+    .banner-slider {
+        height: 1100px !important;
+    }
+}
+
+@media screen and (max-width: 334px){
+    .banner-slider {
+        height: 1140px !important;
+    }
+}

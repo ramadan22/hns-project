@@ -1,0 +1,106 @@
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-slider {
+    position: relative;
+}
+
+.slick-dots {
+    background-color: transparent !important;
+    width: auto !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    right: 15px !important;
+    display: flex !important;
+    z-index: 1;
+}
+
+.slick-dots ul {
+    display: flex !important;
+    flex-wrap: wrap;
+    width: 15px;
+    align-content: center;
+}
+
+.slick-dots li {
+    width: 100%;
+    display: block;
+    background-color: #f8fefe;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 15px !important;
+}
+
+.slick-dots li.slick-active {
+    background-color: #f8d20c !important;
+    height: 20px !important;
+}
+
+.curve-landing {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  border-top-right-radius: 55rem 40px;
+  border-top-left-radius: 55rem 40px;
+}
+
+.card-offset {
+  position: absolute;
+  bottom: 0;
+  left: -10;
+  left: -22px;
+  top: -23px;
+  width: 460px;
+}
+
+.first-heading {
+  position: absolute;
+  top: 0;
+
+}
+
+.bg-curve {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.m-131 {
+  margin-top: -131px;
+}
+
+@media screen and (max-width: 767px){
+  .slick-dots {
+    width: 100% !important;
+    top: auto !important;
+    bottom: 0 !important;
+    right: 0px !important;
+    text-align: center;
+  }
+
+  .slick-dots ul {
+    width: auto;
+    margin: 0 auto !important;
+  }
+
+  .slick-dots li {
+    width: 30px !important;
+    height: 5px !important;
+  }
+
+  .slick-dots li.slick-active {
+    width: 30px !important;
+    height: 5px !important;
+  }
+
+  .banner-slider {
+    height: 1050px !important;
+  }
+}
